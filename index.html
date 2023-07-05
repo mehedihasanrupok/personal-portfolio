@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
+  <header>
 
-      <div class="user">
-        <img src="images//my.jpg" alt="">
-        <h3 class="name">Mehedi Hasan</h3>
-        <p class="post">Front End Developer</p>
+    <div class="user">
+      <img src="images//my.jpg" alt="">
+      <h3 class="name">Mehedi Hasan</h3>
+      <p class="post">Front End Developer</p>
+    </div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="menu" class="fas fa-bars"></div>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <h3>Hi There!</h3>
+    <h1>I'M <span>Mehedi Hasan</span></h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis libero, aspernatur commodi reiciendis cum
+      dolorem totam quaerat nam ex?</p>
+    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+
+    <h1 class="heading"> <span>About</span> Me </h1>
+    <div class="row">
+      <div class="info">
+        <h3><span>name:</span> mehedi hasan</h3>
+        <h3><span>age:</span> 24</h3>
+        <h3><span>qualification:</span> BSc in CSE</h3>
+        <h3><span>post:</span> front end developer</h3>
+        <h3><span>language:</span> english</h3>
+        <a href="#"><button class="btn">download cv <i class="fas fa-download"></i></button></a>
       </div>
 
-      <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div id="menu" class="fas fa-bars"></div>
-
-    <!-- Home -->
-    <section class="home" id="home">
-      <h3>Hi There!</h3>
-      <h1>I'M <span>Mehedi Hasan</span></h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis libero, aspernatur commodi reiciendis cum dolorem totam quaerat nam ex?</p>
-      <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
-    </section>
-
-    <!-- About -->
-    <section class="about" id="about">
-
-      <h1 class="heading"> <span>About</span> Me </h1>
-      <div class="row">
-        <div class="info">
-          <h3><span>name:</span> mehedi hasan</h3>
-          <h3><span>age:</span> 24</h3>
-          <h3><span>qualification:</span> BSc in CSE</h3>
-          <h3><span>post:</span> front end developer</h3>
-          <h3><span>language:</span> english</h3>
-          <a href="#"><button class="btn">download cv <i class="fas fa-download"></i></button></a>
+      <div class="counter">
+        <div class="box">
+          <span>2+</span>
+          <h3>years of experience</h3>
         </div>
 
-        <div class="counter">
-          <div class="box">
-            <span>2+</span>
-            <h3>years of experience</h3>
-          </div>
-
-          <div class="box">
-            <span>12+</span>
-            <h3>project complete</h3>
-          </div>
+        <div class="box">
+          <span>12+</span>
+          <h3>project complete</h3>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-<!-- Education -->
-   <section class="education" id="education">
+  <!-- Education -->
+  <section class="education" id="education">
 
     <h1 class="heading">My <span>education</span></h1>
     <div class="box-container">
@@ -92,10 +95,38 @@
           , totam nostrum quos quasi veritatis a dolorum?</p>
       </div>
     </div>
-   </section>
-    <!--  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/script.js"></script>
-    <script src="https://kit.fontawesome.com/36076ee01a.js" crossorigin="anonymous"></script>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <h1 class="heading">My <span>portfolio</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/my.jpg" alt="">
+      </div>
+      <div class="box">
+        <img src="images/my.jpg" alt="">
+      </div>
+      <div class="box">
+        <img src="images/my.jpg" alt="">
+      </div>
+      <div class="box">
+        <img src="images/my.jpg" alt="">
+      </div>
+      <div class="box">
+        <img src="images/my.jpg" alt="">
+      </div>
+      <div class="box">
+        <img src="images/my.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!--  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/36076ee01a.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
