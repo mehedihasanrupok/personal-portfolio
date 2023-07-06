@@ -282,6 +282,9 @@ header .navbar ul li a:hover{
 }
 
 /* Contact */
+.info{
+    text-transform: none;
+}
 .contact .row .content{
     flex: 1 1 30rem;
     padding: 4rem;
