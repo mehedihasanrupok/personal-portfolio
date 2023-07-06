@@ -10,6 +10,13 @@ $(document).ready(function(){
         $('#menu').removeClass("fa-times-circle");
         $('header').removeClass('toggle');
 
+        if($(window).scrollTop()>0){
+            $('.top').show();
+        }
+        else{
+            $('.top').hide();
+        }
+
     });
 
     $('a[href*="#"]').on('click',function(e){
